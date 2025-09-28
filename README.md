@@ -23,22 +23,22 @@ projeto4/
 
 > **Pré-requisitos:** Python 3.9+, pip
 
-1. Clone este repositório:
+# 1. Clone este repositório:
 ```bash
 git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
 cd projeto4
 
-2. Instale as dependências:
+# 2. Instale as dependências:
 
-3. Execute a API
+# 3. Execute a API
 uvicorn main:app --reload
 
-4. Acesse pelo navegador
+# 4. Acesse pelo navegador
 http://127.0.0.1:8000
 
 
-📝 Endpoints Disponíveis
-1. Endpoint Básico
+# 📝 Endpoints Disponíveis
+# 1. Endpoint Básico
 Rota: /
 Método: GET
 Descrição: Retorna informações sobre a API.
@@ -50,7 +50,7 @@ Exemplo de retorno:
   "total_registros": 50
 }
 
-2. Listar todos os pilotos
+# 2. Listar todos os pilotos
 Rota: /dados
 Método: GET
 Descrição: Retorna todos os registros do dataset.
@@ -69,7 +69,7 @@ Exemplo: /dados/5
   "time": "Haas"
 }
 
-4. Filtrar por time
+# 4. Filtrar por time
 Rota: /categoria/{time}
 Método: GET
 Descrição: Retorna todos os pilotos de um time específico.
@@ -83,10 +83,10 @@ time (opcional) → filtra pelo time
 limite (opcional, padrão 10) → número máximo de resultados
 Exemplo: /buscar?nome=Piloto_1&time=Mercedes&limite=5
 
-🛠️ Tecnologias Usadas
+# 🛠️ Tecnologias Usadas
 Python 3
 FastAPI
 Uvicorn
 Pandas
 
-👨‍💻 Autor: Laura da Cruz Barbosa
+# 👨‍💻 Autor: Laura da Cruz Barbosa
